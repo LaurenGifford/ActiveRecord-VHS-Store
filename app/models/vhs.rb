@@ -7,6 +7,17 @@ class Vhs < ActiveRecord::Base
 
     after_initialize :add_serial_number
 
+    # def self.hot_from_the_press(:title, :year, :length, :director, :description, :female_director, genre)
+    #     movie = Movie.create(title: title, year: year, length: length, director: director, description: description, female_director: female_director)
+    #     binding.pry
+    # end
+
+    # t.string :title
+    #   t.integer :year
+    #   t.integer :length
+    #   t.string :director
+    #   t.string :description
+    #   t.boolean :female_director
 
     private
 
